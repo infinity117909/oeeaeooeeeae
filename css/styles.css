@@ -1,0 +1,36 @@
+h1 {
+    font-size: 50px;
+    font-family: "Indie Flower", cursive;
+    margin: 0px auto;
+    text-align: center;
+}
+
+p {
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace; 
+}
+
+.credits {
+    width: 372px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.catBox {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    border: 5px solid rgb(248, 123, 5);
+    border-radius: 5%;
+    background-color: #f0f0f0;
+}
+
+.catImage {
+    position: relative;
+    object-fit: cover;
+    object-position: 53% 50%;
+    overflow: hidden;
+    clip-path: inset(70px 60px 70px 60px);
+}
